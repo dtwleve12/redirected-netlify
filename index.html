@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Loading...bta1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(#011673, #011052, #010b3b);
+      color: white;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.1);
+      padding: 40px;
+      border-radius: 15px;
+      text-align: center;
+      width: 350px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    .countdown {
+      font-size: 26px;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      color: #fff;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<div class="card">
+  <h1>Welcome 🎉</h1>
+  <p>The website open shortly...</p>
+  <div class="countdown" id="countdown"></div>
+  <a href="https://arenaqr.netlify.app/">Click here if not work</a>
+</div>
+
+<script>
+  /* ==========================
+     🔧 SETTINGS (EDIT HERE)
+     ========================== */
+
+   setTimeout(() => {
+          window.location.replace("https://arenaqr.netlify.app/");
+        });
+
+</script>
+
+</body>
+</html>
